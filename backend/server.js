@@ -17,6 +17,7 @@ connectCloudinary();
 //Middleware
 app.use(cors({
   origin: [
+    'https://vogue-next.netlify.app',
     'https://vogue-next.vercel.app',
     'https://vogue-next-admin.vercel.app',
     'http://localhost:5173',
